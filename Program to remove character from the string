@@ -1,0 +1,5 @@
+str = input("please enter a string : ")
+index= int(input("please enter index of  character : "))
+new_str=str[:index]+str[index+1:]
+print("given string :" +str)
+print("new string :" +new_str)
