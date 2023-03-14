@@ -1,0 +1,3 @@
+str=(input("Enter the string :"))
+ch=' '.join((z for z in str if not z.isdigit()))
+print(ch)
